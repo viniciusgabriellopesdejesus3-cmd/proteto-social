@@ -5,9 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>rede sociais</title>
+    <style>
+
+        body{
+            background: url(imagens/fundo-madeira.jpg) no-repeat top center;
+        }
+
+        main{
+            height: 100vh;
+            position: relative;
+        }
+
+        section#telefone{
+            position: absolute;
+            top:60%;
+            right:35%;
+        
+            height:627px;
+            width: 311px;
+            background: url(imagens/frame-iphone.png) no-repeat;
+            
+        }
+        
+        iframe#tela {
+            position: relative;
+            top: 80px;
+            left: 22px;
+            width: 269px;
+            height: 471px;
+        }
+
+        section#redes-sociai img{
+
+        }
+
+
+        
+    </style>
+    
 </head>
 <body>
-    <h1>ola mundo</h1>
+    <main>
+        <section id="telefone">
+        <iframe src="home.html" name="tela" id="tela" frameborder="0"></iframe>
+        </section>
+
+        <section id="redes sociais">
+            <a href="#" target="tela"> <img src="imagens/logo-home.jpg" alt="home"></a>
+            <a href="#" target="tela"><img src="imagens/logo-youtube.jpg" alt="youtube"></a>
+            <a href="#" target="tela"><img src="imagens/logo-github.jpg" alt="github"></a>
+            <a href="#" target="tela"><img src="imagens/logo-instagram.jpg" alt="instagran"></a>
+            <a href="#" target="tela"><img src="imagens/logo-twitter.jpg" alt="twitter"></a>
+            <a href="#" target="tela"> <img src="imagens/logo-facebook.jpg" alt="facebook"></a>
+
+        </section>
+    </main>
     
 </body>
 </html>
